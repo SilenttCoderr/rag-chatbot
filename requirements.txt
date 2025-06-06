@@ -1,0 +1,8 @@
+fastapi
+langchain
+langgraph
+langchain-google-genai
+langchain-chroma
+langchain-community
+PyMuPDF
+python-dotenv
