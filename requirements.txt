@@ -1,4 +1,4 @@
-"fastapi[standard]"
+fastapi[standard]
 langchain
 langgraph
 langchain-google-genai
