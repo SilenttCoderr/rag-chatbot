@@ -1,4 +1,5 @@
-fastapi[standard]
+fastapi
+uvicorn
 langchain
 langgraph
 langchain-google-genai

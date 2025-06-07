@@ -134,7 +134,6 @@ def into_database(file_path):
 
     vector_store.add_documents(all_splits)
 
-into_database("hehe.pdf")
-print(rag_function("what is hehe.pdf about?"))
+
 
 
