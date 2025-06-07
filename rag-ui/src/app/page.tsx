@@ -17,7 +17,7 @@ export default function ChatPage() {
     setChat([...chat, { type: "user", message: userMsg }]);
     setInput("");
 
-    const res = await fetch("http://localhost:8000/query", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/query`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query: userMsg }),
@@ -45,7 +45,7 @@ export default function ChatPage() {
     formData.append("file", selectedFile);
 
     try {
-      const res = await fetch("http://localhost:8000/upload", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/upload`, {
         method: "POST",
         body: formData,
       });
