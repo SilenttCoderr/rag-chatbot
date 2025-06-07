@@ -109,13 +109,6 @@ config = {"configurable": {"thread_id": "abc123"}}
 
 def rag_function(input_message):
     
-
-
-
-    
-
-
-    
     
     for step in graph.stream(
         {"messages": [{"role": "user", "content": input_message}]},
