@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
     "http://localhost:3000",
-    "https://rag-chatbot-l9iehc6sb-silenttcoderrs-projects.vercel.app",  # Add your frontend domain
+    "https://rag-chatbot-lake.vercel.app",  # Add your frontend domain
 ]
 
 app.add_middleware(
